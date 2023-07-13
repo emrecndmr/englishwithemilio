@@ -1,0 +1,407 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid black; */
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #272727;
+  color: white;
+}
+
+.navbar {
+  height: 60px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  list-style-type: none;
+}
+.navbar ul li {
+  margin-right: 40px;
+}
+.navbar ul li a {
+  transition-property: all;
+  transition-duration: 700ms;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.navbar ul li a:hover {
+  color: #ff652f;
+}
+.navbar ul li a:active {
+  color: #ff652f;
+}
+
+.main {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main h2 {
+  font-weight: normal;
+  font-size: 25px;
+  margin: 10px;
+}
+.main h1 {
+  font-size: 5em;
+  font-weight: normal;
+  border-bottom: 2px solid white;
+  padding-bottom: 30px;
+}
+.main .span {
+  color: #ff652f;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer ul {
+  display: flex;
+  margin: 18px;
+}
+.footer ul li {
+  display: flex;
+  margin-right: 15px;
+}
+.footer ul li a {
+  transition-property: all;
+  transition-duration: 700ms;
+  color: white;
+}
+.footer ul li a:hover {
+  color: #ff652f;
+}
+.footer ul li a:active {
+  color: #ff652f;
+}
+.footer ul li a .fa-brands {
+  font-size: 30px;
+}
+.footer .copy {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.img-about {
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../img/model-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-about {
+  height: 60px;
+}
+.navbar-about ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  list-style-type: none;
+}
+.navbar-about ul li {
+  margin-right: 40px;
+}
+.navbar-about ul li a {
+  transition-property: all;
+  transition-duration: 700ms;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.navbar-about ul li a:hover {
+  color: #3d2fff;
+}
+.navbar-about ul li a:active {
+  color: #ff652f;
+}
+
+.main-about {
+  height: 300px;
+  margin-bottom: 20px;
+}
+.main-about .section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+  height: 100%;
+}
+.main-about .section h1 {
+  font-size: 3rem;
+  color: #ff652f;
+  margin-bottom: 30px;
+}
+.main-about .section p {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.section2 {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.section2 .s1, .section2 .s2, .section2 .s3 {
+  margin-top: 20px;
+  background-color: #414141;
+  padding: 1rem;
+  border-bottom: #ff652f solid 5px;
+}
+
+.footer-about {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-about ul {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  right: left;
+}
+.footer-about ul li {
+  display: flex;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+.footer-about ul li a {
+  transition-property: all;
+  transition-duration: 700ms;
+  color: white;
+}
+.footer-about ul li a:hover {
+  color: #ff652f;
+}
+.footer-about ul li a:active {
+  color: #ff652f;
+}
+.footer-about ul li a .fa-brands {
+  font-size: 30px;
+}
+.footer-about .copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 3rem;
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+/*------------------MY PROJECTS----------------*/
+.navbar-myprojects {
+  height: 60px;
+}
+.navbar-myprojects ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  list-style-type: none;
+}
+.navbar-myprojects ul li {
+  margin-right: 40px;
+}
+.navbar-myprojects ul li a {
+  transition-property: all;
+  transition-duration: 700ms;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.navbar-myprojects ul li a:hover {
+  color: #3d2fff;
+}
+.navbar-myprojects ul li a:active {
+  color: #ff652f;
+}
+
+.section-myprojects .h2-myprojects {
+  margin-top: 200px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+.section-myprojects .img-myprojects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-myprojects .img-myprojects a:hover {
+  opacity: 0.3;
+  transition: all 0.5s;
+}
+.section-myprojects .img-myprojects a .i-myproject {
+  width: 670px;
+  margin-bottom: 20px;
+  border-bottom: #ff652f solid 5px;
+}
+
+.footer-myprojects {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-myprojects ul {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  right: left;
+}
+.footer-myprojects ul li {
+  display: flex;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+.footer-myprojects ul li a {
+  transition-property: all;
+  transition-duration: 700ms;
+  color: white;
+}
+.footer-myprojects ul li a:hover {
+  color: #ff652f;
+}
+.footer-myprojects ul li a:active {
+  color: #ff652f;
+}
+.footer-myprojects ul li a .fa-brands {
+  font-size: 30px;
+}
+.footer-myprojects .copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 3rem;
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+/*--------------------CONTACT-------------------*/
+.navbar-contact {
+  height: 60px;
+}
+.navbar-contact ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  list-style-type: none;
+}
+.navbar-contact ul li {
+  margin-right: 40px;
+}
+.navbar-contact ul li a {
+  transition-property: all;
+  transition-duration: 700ms;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.navbar-contact ul li a:hover {
+  color: #3d2fff;
+}
+.navbar-contact ul li a:active {
+  color: #ff652f;
+}
+
+.main-contact {
+  height: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-contact h1 {
+  margin-top: 130px;
+  font-weight: 400;
+  font-size: 45px;
+}
+.main-contact .container-contact {
+  display: flex;
+  margin-top: 20px;
+}
+.main-contact .container-contact div {
+  margin-right: 30px;
+  font-size: 26px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+  text-transform: capitalize;
+}
+.main-contact .container-contact div .info-contact {
+  color: #ff652f;
+}
+.main-contact .container-contact div i {
+  margin-right: 5px;
+  font-size: 30px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-contact ul {
+  display: flex;
+  margin-bottom: 20px;
+}
+.footer-contact ul li {
+  display: flex;
+  margin-right: 15px;
+}
+.footer-contact ul li a {
+  transition-property: all;
+  transition-duration: 700ms;
+  color: white;
+}
+.footer-contact ul li a:hover {
+  color: #ff652f;
+}
+.footer-contact ul li a:active {
+  color: #ff652f;
+}
+.footer-contact ul li a .fa-brands {
+  font-size: 30px;
+}
+.footer-contact .copy {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-right: 10px;
+  font-size: 18px;
+}/*# sourceMappingURL=index.css.map */
